@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوم التأسيس</title>
+    <style>
+        /* إعدادات عامة */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+            color: #00471B;
+            direction: rtl;
+            text-align: center;
+        }
+
+        /* روابط التنقل */
+        .navigation {
+            background-color: #00471B;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .navigation .nav-link {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #FFFFFF;
+            border-radius: 8px;
+            background-color: #006341;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .navigation .nav-link:hover {
+            background-color: #FFD700;
+            color: #00471B;
+            border-color: #FFD700;
+        }
+
+        /* قسم العناوين والمعلومات */
+        .header {
+            background-color: #006341;
+            padding: 10px 0;
+        }
+
+        .section-intro h1 {
+            font-size: 18px;
+            color: #00471B;
+        }
+
+        /* تصميم معرض الصور */
+        .section-images {
+            margin-top: 30px;
+            padding: 20px;
+                }
+
+        .section-images h2 {
+            font-size: 1.5em;
+            color: #00471B;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        /* القسم الرابع: معلومات إضافية */
+        .section-info {
+            background-color: #00471B;
+            color: white;
+            padding: 20px;
+   
+          
+ 
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #00471B;
+            color: #FFFFFF;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- روابط الصفحات -->
+    <nav class="navigation">
+        <a href="index.html" class="nav-link">صفحة التنسيقات</a>
+        <a href="Student.html" class="nav-link">الصفحة الرئيسة</a>
+    </nav>
+
+    <!-- القسم الأول: الشعار -->
+    <div class="header">
+        <img src="imge/main10.jpg" style="  height: 5%;    width: 100%;  "     alt="شعار يوم التأسيس" class="logo">
+    </div>
+
+    <!-- القسم الثاني: التعريف بالمناسبة -->
+    <div class="section-intro">
+        <h1>يوم التأسيس</h1>
+        <p style="  font-size: 18px; font-weight: bold;    padding: 20px;">
+            صدر الأمر الملكي الكريم من خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز آل سعود بأن يكون يوم 22 فبراير من كل عام يوماً للتأسيس. وهو اليوم الذي يرمز إلى العمق التاريخي والحضاري والثقافي للمملكة العربية السعودية عندما أسس الإمام محمد بن سعود الدولة السعودية الأولى عام 1139هـ / 1727م.
+        </p>
+    </div>
+
+    <!-- القسم الثالث: الصور -->
+    <div class="section-images">
+        <h2>اليوم بالصور</h2>
+        <div class="gallery">
+            <img src="imge/imge01.jpg" alt="صورة 1">
+            <img src="imge/image02.jpg" alt="صورة 2">
+            <img src="imge/image.jpg" alt="صورة 3">
+           
+        </div>
+    </div>
+
+    <!-- القسم الرابع: معلومات إضافية -->
+    <div class="section-info">
+      
+        <h2>نبذة</h2>
+        <p>من خلال هذه المناسبة نحتفي بتأسيس الدولة السعودية.</p>
+        <p>يمكننا أيضاً التواصل من خلال الروابط التالية لأي استفسارات أو اقتراحات:</p>
+        <ul>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="https://www.moe.gov.sa" target="_blank">وزارة التعليم</a></li>
+        </ul>
+    </div>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2025 - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
